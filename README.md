@@ -109,7 +109,7 @@ zulqar@mint:~$ cd mea-pay-backend
 zulqar@mint:~$ mvn clean package
 ```
 
->> Run
+>> TO, Run!
 ```sh
 zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 ```
@@ -122,7 +122,7 @@ zulqar@mint:~$ cd mea-pay-frontend
 zulqar@mint:~$ rm -rf node_modules && rm -f package.json.lock && npm install
 ```
 
->> Run
+>> TO, Run!
 ```sh
 zulqar@mint:~$ ng serve
 ```

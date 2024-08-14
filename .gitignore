@@ -387,6 +387,9 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
+# Ignore cache created with the Angular CLI.
+.angular/
+
 # Visual Studio 6 build log
 *.plg
 
