@@ -1,20 +1,20 @@
 # MeaPay, renamed from gecPAY
 MEA Utilize Provider's, Online Payment Application.
 
-Frontend UI Versions:
-————————————————
-Angular - 18.1.4
-Angular Material: 18.1.4
-Bootstrap: 5.3.3
-jQuery: 3.7.1
-Node: 18.20.4
-npm: 10.7.0
-
-Backend Versions:
-————————————————
-Java: 17.0.12
-Maven: 3.8.7
-Spring Boot: 3.3.2
+Frontend UI Versions:<br>
+————————————————<br>
+Angular - 18.1.4<br>
+Angular Material: 18.1.4<br>
+Bootstrap: 5.3.3<br>
+jQuery: 3.7.1<br>
+Node: 18.20.4<br>
+npm: 10.7.0<br>
+<br>
+Backend Versions:<br>
+————————————————<br>
+Java: 17.0.12<br>
+Maven: 3.8.7<br>
+Spring Boot: 3.3.2<br>
 
 ## Contents
 
