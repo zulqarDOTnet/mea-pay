@@ -1,13 +1,11 @@
 # MeaPay, renamed from gecPAY
 
-Backend Versions<br>
-————————————————<br>
+**Backend Versions**<br>
 Java: 17.0.12<br>
 Maven: 3.8.7<br>
 Spring Boot: 3.3.2<br>
 
-Frontend Versions<br>
-————————————————<br>
+**Frontend Versions**<br>
 Angular: 18.1.4<br>
 Angular Material: 18.1.4<br>
 Bootstrap: 5.3.3<br>
