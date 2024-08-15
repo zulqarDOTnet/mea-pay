@@ -63,9 +63,7 @@ zulqar@mint:~$ sudo apt install nodejs
 
 zulqar@mint:~$ node -v
 v18.20.4
-```
 
-```sh
 zulqar@mint:~$ npm -v
 10.7.0
 ```
