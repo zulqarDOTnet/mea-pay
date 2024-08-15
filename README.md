@@ -17,9 +17,9 @@ npm: 10.7.0<br>
 
 - [Operating System](#operating-system)
 - [Development Environment](#development-environment)
+- [Editor](#editor)
 - [Build & Run: API Server](#build--run-backend-endpoints-api-server)
 - [Build & Run: Frontend UI Server](#build--run-frontend-ui-server)
-- [Editor](#editor)
 - [Author](#author)
 
 ## Operating System
@@ -101,6 +101,28 @@ Package                      Version
 @schematics/angular          18.1.4 (cli-only)
 ```
 
+## Editor
+
+**Visual Studio Code**
+
+```sh
+zulqar@mint:~$ code -v
+
+1.92.1
+eaa41d57266683296de7d118f574d0c2652e1fc4
+x64
+
+Version: 1.92.1
+Commit: eaa41d57266683296de7d118f574d0c2652e1fc4
+Date: 2024-08-07T20:16:39.455Z
+Electron: 30.1.2
+ElectronBuildId: 9870757
+Chromium: 124.0.6367.243
+Node.js: 20.14.0
+V8: 12.4.254.20-electron.0
+OS: Linux x64 6.1.0-21-amd64
+```
+
 ## Build & Run: Backend EndPoints API Server
 
 > First time
@@ -153,27 +175,6 @@ zulqar
 user@pass
 ```
 
-## Editor
-
-**Visual Studio Code**
-
-```sh
-zulqar@mint:~$ code -v
-
-1.92.1
-eaa41d57266683296de7d118f574d0c2652e1fc4
-x64
-
-Version: 1.92.1
-Commit: eaa41d57266683296de7d118f574d0c2652e1fc4
-Date: 2024-08-07T20:16:39.455Z
-Electron: 30.1.2
-ElectronBuildId: 9870757
-Chromium: 124.0.6367.243
-Node.js: 20.14.0
-V8: 12.4.254.20-electron.0
-OS: Linux x64 6.1.0-21-amd64
-```
 ## Author
 
 [![Author](https://img.shields.io/static/v1?label=author&message=Zulqarnain%20Zafar&color=green)](https://zulqar.net)
