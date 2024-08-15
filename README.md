@@ -17,10 +17,10 @@ npm: 10.7.0<br>
 
 ## Contents
 
-- [Operating System](#os)
-- [Development Environment](#env)
-- [Editor](#vsc)
-- [Author](#auth)
+- [Operating System](#operating-system)
+- [Development Environment](#development-environment)
+- [Editor](#editor)
+- [Author](#author)
 
 ## Operating System
 
@@ -103,31 +103,31 @@ Package                      Version
 
 **Running the Backend EndPoint API's Server**
 
->> First time
+> First time
 ```sh
 zulqar@mint:~$ cd mea-pay-backend
 zulqar@mint:~$ mvn clean package
 ```
 
->> TO, Run!
+> TO, Run!
 ```sh
 zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 ```
 
 **Running the Frontend NodeJS Server**
 
->> First time
+> First time
 ```sh
 zulqar@mint:~$ cd mea-pay-frontend
 zulqar@mint:~$ rm -rf .angular && rm -rf dist && rm -rf node_modules && rm -f package.json.lock && npm install
 ```
 
->> TO, Run!
+> TO, Run!
 ```sh
 zulqar@mint:~$ ng serve
 ```
 
->> OR
+> OR
 
 ```sh
 zulqar@mint:~$ ng serve --configuration production
