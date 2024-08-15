@@ -156,6 +156,6 @@ Node.js: 20.14.0
 V8: 12.4.254.20-electron.0
 OS: Linux x64 6.1.0-21-amd64
 ```
-## License
+## Author
 
 [![Author](https://img.shields.io/static/v1?label=author&message=Zulqarnain%20Zafar&color=green)](https://zulqar.net)
