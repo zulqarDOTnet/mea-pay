@@ -98,7 +98,8 @@ Package                      Version
 @angular-devkit/schematics   18.1.4 (cli-only)
 @schematics/angular          18.1.4 (cli-only)
 ```
-
+<br>
+<br>
 
 **Running the Backend EndPoints API Server**
 
@@ -114,7 +115,8 @@ zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 ```
 
 http://localhost:8393
-
+<br>
+<br>
 
 **Running the Frontend NodeJS Server**
 
@@ -141,10 +143,10 @@ zulqar@mint:~$ ng serve --configuration production
 
 http://127.0.0.1:4200
 
-> Admin Login
-Admin / admin@pass
-
-> User
+> Admin Login<br>
+Admin / admin@pass<br>
+<br>
+> User<br>
 zulqar / user@pass
 
 ## Editor
