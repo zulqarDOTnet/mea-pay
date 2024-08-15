@@ -163,13 +163,13 @@ zulqar@mint:~$ ng serve --configuration production
 
 http://127.0.0.1:4200
 
-> Admin Login
+> Logon as Admin
 ```sh
 Admin
 admin@pass
 ```
 
-> User
+> Logon as User
 ```sh
 zulqar
 user@pass
