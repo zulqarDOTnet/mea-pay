@@ -135,6 +135,8 @@ zulqar@mint:~$ mvn clean package
 zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 ```
 
+
+
 http://localhost:8393
 
 ## Build & Run: Frontend UI Server
