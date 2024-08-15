@@ -18,7 +18,7 @@ npm: 10.7.0<br>
 - [Operating System](#operating-system)
 - [Development Environment](#development-environment)
 - [Build & Run: API Server](#build--run-backend-endpoints-api-server)
-- [Build & Run: Frontend UI Server](#build--run-frontend-nodejs-server)
+- [Build & Run: Frontend UI Server](#build--run-frontend-ui-server)
 - [Editor](#editor)
 - [Author](#author)
 
@@ -116,7 +116,7 @@ zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 
 http://localhost:8393
 
-## Build & Run: Frontend NodeJS Server
+## Build & Run: Frontend UI Server
 
 > First time
 ```sh
