@@ -124,6 +124,10 @@ zulqar@mint:~$ cd mea-pay-frontend
 zulqar@mint:~$ rm -rf .angular && rm -rf dist && rm -rf node_modules && rm -f package.json.lock && npm install
 ```
 
+> TO, Build
+```sh
+zulqar@mint:~$ ng build
+
 > TO, Run!
 ```sh
 zulqar@mint:~$ ng serve
@@ -136,6 +140,12 @@ zulqar@mint:~$ ng serve --configuration production
 ```
 
 http://127.0.0.1:4200
+
+> Admin Login
+Admin / admin@pass
+
+> User
+zulqar / user@pass
 
 ## Editor
 
