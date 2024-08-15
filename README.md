@@ -1,5 +1,4 @@
 # MeaPay, renamed from gecPAY
-MEA Utilize Provider's, Online Payment Application.
 
 Frontend UI Versions:<br>
 ————————————————<br>
@@ -21,6 +20,7 @@ Spring Boot: 3.3.2<br>
 - [Operating System](#os)
 - [Development Environment](#env)
 - [Editor](#vsc)
+- [Author](#auth)
 
 ## Operating System
 
@@ -127,6 +127,12 @@ zulqar@mint:~$ rm -rf .angular && rm -rf dist && rm -rf node_modules && rm -f pa
 zulqar@mint:~$ ng serve
 ```
 
+>> OR
+
+```sh
+zulqar@mint:~$ ng serve --configuration production
+```
+
 http://127.0.0.1:4200
 
 ## Editor
@@ -150,3 +156,6 @@ Node.js: 20.14.0
 V8: 12.4.254.20-electron.0
 OS: Linux x64 6.1.0-21-amd64
 ```
+## License
+
+[![Author](https://img.shields.io/static/v1?label=author&message=Zulqarnain%20Zafar&color=green)](https://zulqar.net)
