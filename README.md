@@ -143,11 +143,15 @@ zulqar@mint:~$ ng serve --configuration production
 
 http://127.0.0.1:4200
 
-> Admin Login<br>
-Admin / admin@pass<br>
-<br>
-> User<br>
+> Admin Login
+```sh
+Admin / admin@pass
+```
+
+> User
+```sh
 zulqar / user@pass
+```
 
 ## Editor
 
