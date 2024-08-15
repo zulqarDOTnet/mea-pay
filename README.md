@@ -17,8 +17,8 @@ npm: 10.7.0<br>
 
 - [Operating System](#operating-system)
 - [Development Environment](#development-environment)
-- [Build & Run, API Server](#development-environment)
-- [Build & Run, Frontend UI Server](#development-environment)
+- [Build & Run, API Server](#running-the-backend-endpoints-api-server)
+- [Build & Run, Frontend UI Server](#running-the-frontend-nodejs-server)
 - [Editor](#editor)
 - [Author](#author)
 
