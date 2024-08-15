@@ -149,6 +149,7 @@ zulqar@mint:~$ rm -rf .angular && rm -rf dist && rm -rf node_modules && rm -f pa
 > TO, Build
 ```sh
 zulqar@mint:~$ ng build
+```
 
 > TO, Run!
 ```sh
