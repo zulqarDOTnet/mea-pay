@@ -99,6 +99,7 @@ Package                      Version
 @schematics/angular          18.1.4 (cli-only)
 ```
 
+
 **Running the Backend EndPoint API's Server**
 
 > First time
@@ -111,6 +112,9 @@ zulqar@mint:~$ mvn clean package
 ```sh
 zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 ```
+
+http://localhost:8393
+
 
 **Running the Frontend NodeJS Server**
 
