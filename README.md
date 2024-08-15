@@ -145,12 +145,14 @@ http://127.0.0.1:4200
 
 > Admin Login
 ```sh
-Admin / admin@pass
+Admin
+admin@pass
 ```
 
 > User
 ```sh
-zulqar / user@pass
+zulqar
+user@pass
 ```
 
 ## Editor
