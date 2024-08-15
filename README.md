@@ -119,7 +119,7 @@ zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 >> First time
 ```sh
 zulqar@mint:~$ cd mea-pay-frontend
-zulqar@mint:~$ rm -rf node_modules && rm -f package.json.lock && npm install
+zulqar@mint:~$ rm -rf .angular && rm -rf dist && rm -rf node_modules && rm -f package.json.lock && npm install
 ```
 
 >> TO, Run!
