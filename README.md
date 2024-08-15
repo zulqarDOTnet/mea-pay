@@ -3,7 +3,8 @@
 **Backend Versions**<br>
 Java: 17.0.12<br>
 Maven: 3.8.7<br>
-Spring Boot: 3.3.2<br>
+Spring Boot: 2.4.5<br>
+Hibernate ORM: 5.4.30<br>
 
 **Frontend Versions**<br>
 Angular: 18.1.4<br>

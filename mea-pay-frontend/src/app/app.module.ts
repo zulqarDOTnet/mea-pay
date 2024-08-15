@@ -18,6 +18,9 @@ import { UserService } from './_services/user.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { RegisterComponent } from './register/register.component';
+import { AddNewProviderComponent } from './add-new-provider/add-new-provider.component';
+import { ShowProviderDetailsComponent } from './show-provider-details/show-provider-details.component';
+import { ShowProviderImagesDialogComponent } from './show-provider-images-dialog/show-provider-images-dialog.component';
 
 import {MatCommonModule} from '@angular/material/core';
 import {MatIconModule} from '@angular/material/icon'; 
@@ -40,6 +43,9 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     HeaderComponent,
     ForbiddenComponent,
     RegisterComponent,
+    AddNewProviderComponent,
+    ShowProviderDetailsComponent,
+    ShowProviderImagesDialogComponent
   ],
   imports: [
     BrowserModule,

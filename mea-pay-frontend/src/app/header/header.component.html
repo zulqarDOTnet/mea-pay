@@ -18,5 +18,10 @@
 <mat-toolbar color="primary" *ngIf="isLoggedIn()">
   <button mat-raised-button color="primary" routerLink="/">Home</button>
   <button mat-raised-button color="primary" *ngIf="isAdmin()" routerLink="/admin">Admin Area</button>
+  <span class="space-buttons"></span>
+  <button mat-flat-button color="primary" *ngIf="isAdmin()" routerLink="/addNewProvider">Add New Provider</button>
+  <button mat-flat-button color="primary" *ngIf="isAdmin()" routerLink="/showProviderDetails">Show Provider Details</button>
+
   <button mat-raised-button color="primary" *ngIf="isUser()" routerLink="/user">Member Area</button>
+
 </mat-toolbar>

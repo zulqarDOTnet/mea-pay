@@ -6,7 +6,7 @@ import { UserAuthService } from './user-auth.service';
   providedIn: 'root',
 })
 export class UserService {
-  PATH_OF_API = 'http://localhost:8393';
+  BACKEND_API_URL = 'http://localhost:8393';
 
   requestHeader = new HttpHeaders({ 'No-Auth': 'True' });
   constructor(
@@ -15,26 +15,26 @@ export class UserService {
   ) {}
 
   public register(registerData) {
-    return this.httpclient.post(this.PATH_OF_API + '/registerNewUser', registerData, {
+    return this.httpclient.post(this.BACKEND_API_URL + '/registerNewUser', registerData, {
       headers: this.requestHeader,
     });
   }
 
   public login(loginData) {
-    return this.httpclient.post(this.PATH_OF_API + '/authenticate', loginData, {
+    return this.httpclient.post(this.BACKEND_API_URL + '/authenticate', loginData, {
       headers: this.requestHeader,
     });
   }
 
   public forUser() {
-    return this.httpclient.get(this.PATH_OF_API + '/forUser', {
+    return this.httpclient.get(this.BACKEND_API_URL + '/forUser', {
       responseType: 'text',
     });
   }
 
 
   public forAdmin() {
-    return this.httpclient.get(this.PATH_OF_API + '/forAdmin', {
+    return this.httpclient.get(this.BACKEND_API_URL + '/forAdmin', {
       responseType: 'text',
     });
   }

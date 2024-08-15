@@ -1,0 +1,103 @@
+<div class="container mt-5">
+    <div class="card p-2">
+
+        <div class="row">
+            <div class="col-6">
+                <form #providerForm="ngForm" (ngSubmit)="addProvider(providerForm)">
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider Name</mat-label>
+                            <input matInput placeholder="Provider Name" [(ngModel)]="provider.providerName"
+                                name="providerName">
+                        </mat-form-field>
+                    </p>
+
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider Description</mat-label>
+                            <input matInput placeholder="Provider Description"
+                                [(ngModel)]="provider.providerDescription" name="providerDescription">
+                        </mat-form-field>
+                    </p>
+
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider API URL</mat-label>
+                            <input matInput placeholder="Provider API URL" [(ngModel)]="provider.providerAPIURL"
+                                name="providerAPIURL">
+                        </mat-form-field>
+                    </p>
+
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider API Login</mat-label>
+                            <input matInput placeholder="Provider API Login" [(ngModel)]="provider.providerAPILogin"
+                                name="providerAPILogin">
+                        </mat-form-field>
+                    </p>
+
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider API Secrete Key / Password</mat-label>
+                            <input matInput placeholder="Provider API Key / Password" [(ngModel)]="provider.providerAPIPass"
+                                name="providerAPIPass">
+                        </mat-form-field>
+                    </p>
+
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider API Method</mat-label>
+                            <input matInput placeholder="Provider API Method" [(ngModel)]="provider.providerAPIMethod"
+                                name="providerAPIMethod">
+                        </mat-form-field>
+                    </p>
+
+                    <p>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Provider API Format</mat-label>
+                            <input matInput placeholder="Provider API Format" [(ngModel)]="provider.providerAPIFormat"
+                                name="providerAPIFormat">
+                        </mat-form-field>
+                    </p>
+
+                    <div align="end">
+                        <!-- <button mat-stroked-button color="primary" style="margin-right: 3px;">Clear</button> -->
+                        <button type="submit" *ngIf="isNewProvider" mat-stroked-button color="primary">Add Provider</button>
+                        <button type="submit" *ngIf="!isNewProvider" mat-stroked-button color="primary">Update Provider</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="col-6">
+                <div>
+                    <div class="dropzone" appDrag (files)="fileDropped($event)">
+                        <div class="text-wrapper">
+                            <div class="centered">
+                                Drag and drop your file or
+                                <a (click)="selectFile.click()" class="browse-button">browse</a>
+                                a file
+                            </div>
+
+                        </div>
+                    </div>
+                    <input multiple type="file" style="display: none;" #selectFile value="select"
+                        (change)="onFileSelected($event)">
+                </div>
+                <div class="mt-5">
+                    <div class="row">
+                        <mat-grid-list cols="4" rowHeight="1:1">
+                            <mat-grid-tile *ngFor="let file of provider.providerImages; let i = index;">
+                                <div style="position: relative">
+                                    <span class="btn-remove-image" (click)="removeImages(i)">x</span>
+                                    <img [src]="file.url" width="150px" height="150px">
+                                </div>
+                            </mat-grid-tile>
+                        </mat-grid-list>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

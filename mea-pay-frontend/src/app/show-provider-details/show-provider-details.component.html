@@ -1,0 +1,88 @@
+<div class="mt-5 p-3">
+
+  <mat-form-field appearance="outline" class="w-100">
+    <mat-label>Search any provider</mat-label>
+    <input matInput
+           #searchkeyword
+           (keyup)="searchByKeyword(searchkeyword.value)"
+           name="searchKey"
+           id="searchKey"
+           placeholder="Search any provider">
+    <mat-hint>Search any provider</mat-hint>
+</mat-form-field>
+ 
+<div *ngIf="showTable">
+
+
+<table mat-table [dataSource]="providerDetails" class="mat-elevation-z8">
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="Id">
+      <th mat-header-cell *matHeaderCellDef> Id </th>
+      <td mat-cell *matCellDef="let element"> {{element.providerId}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="Provider Name">
+      <th mat-header-cell *matHeaderCellDef> Provider Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.providerName}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef> Provider Description </th>
+      <td mat-cell *matCellDef="let element"> {{element.providerDescription}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="Provider API URL">
+      <th mat-header-cell *matHeaderCellDef> Provider API URL </th>
+      <td mat-cell *matCellDef="let element"> {{element.providerAPIURL}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Provider API Login">
+        <th mat-header-cell *matHeaderCellDef> Provider API Login </th>
+        <td mat-cell *matCellDef="let element"> {{element.providerAPILogin}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Provider API Secrete Key / Password">
+      <th mat-header-cell *matHeaderCellDef> Provider API Secrete Key / Password </th>
+      <td mat-cell *matCellDef="let element"> {{element.providerAPIPass}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Provider API Method">
+    <th mat-header-cell *matHeaderCellDef> Provider API Method </th>
+    <td mat-cell *matCellDef="let element"> {{element.providerAPIMethod}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Provider API Format">
+    <th mat-header-cell *matHeaderCellDef> Provider API Format </th>
+    <td mat-cell *matCellDef="let element"> {{element.providerAPIFormat}} </td>
+  </ng-container>
+
+    <ng-container matColumnDef="Actions">
+      <th mat-header-cell *matHeaderCellDef> Actions </th>
+      <td mat-cell *matCellDef="let element"> 
+        <button mat-icon-button color="primary" (click)="showImages(element)">
+          <mat-icon> images </mat-icon>
+        </button>    
+        <button mat-icon-button color="primary" (click)="editProviderDetails(element.providerId)">
+          <mat-icon> edit </mat-icon>
+        </button>
+        <button mat-icon-button color="warn" (click)="deleteProvider(element.providerId)">
+          <mat-icon> delete </mat-icon>
+        </button> 
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+</div>
+
+<div class="text-center p-5" *ngIf="showLoadMoreProviderButton">
+  <button type="button" mat-raised-button color="primary" (click)="loadMoreProvider()">Load more</button>
+</div>
+
+</div>
