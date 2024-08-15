@@ -100,7 +100,7 @@ Package                      Version
 ```
 
 
-**Running the Backend EndPoint API's Server**
+**Running the Backend EndPoints API Server**
 
 > First time
 ```sh
