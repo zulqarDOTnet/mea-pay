@@ -387,9 +387,6 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
-# Ignore cache created with the Angular CLI.
-.angular/
-
 # Visual Studio 6 build log
 *.plg
 
@@ -469,5 +466,9 @@ Resource.designer.cs
 6.0/Apps/WeatherTwentyOne/src/nuget.config
 6.0/Apps/WeatherTwentyOne/src/.editorconfig
 
+# Ignore cache created with the Angular CLI.
+mea-pay-frontend/.angular
+
+# Others
 *.DS_Store
 *.zip
