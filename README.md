@@ -49,7 +49,7 @@ zulqar@mint:~$ neofetch
 
 ## Development Environment
 
-* Using the built-in Java from Android Studio
+**Using the built-in Java from Android Studio**
 
 ```sh
 zulqar@mint:~$ java --version
