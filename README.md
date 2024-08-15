@@ -10,8 +10,8 @@ Angular: 18.1.4<br>
 Angular Material: 18.1.4<br>
 Bootstrap: 5.3.3<br>
 jQuery: 3.7.1<br>
-Node: 18.20.4<br>
-npm: 10.7.0<br>
+Node.js: 18.20.4<br>
+NPM: 10.7.0<br>
 
 ## Contents
 
