@@ -17,8 +17,8 @@ npm: 10.7.0<br>
 
 - [Operating System](#operating-system)
 - [Development Environment](#development-environment)
-- [Build & Run, API Server](#running-the-backend-endpoints-api-server)
-- [Build & Run, Frontend UI Server](#running-the-frontend-nodejs-server)
+- [Build & Run: API Server](#running-the-backend-endpoints-api-server)
+- [Build & Run: Frontend UI Server](#running-the-frontend-nodejs-server)
 - [Editor](#editor)
 - [Author](#author)
 
@@ -101,7 +101,7 @@ Package                      Version
 @schematics/angular          18.1.4 (cli-only)
 ```
 
-## Running the Backend EndPoints API Server
+## Build & Run: Backend EndPoints API Server
 
 > First time
 ```sh
@@ -116,7 +116,7 @@ zulqar@mint:~$ java -jar target/meapay-0.0.1-SNAPSHOT.jar
 
 http://localhost:8393
 
-## Running the Frontend NodeJS Server
+## Build & Run: Frontend NodeJS Server
 
 > First time
 ```sh
