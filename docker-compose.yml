@@ -1,0 +1,18 @@
+services:
+  oracle-db:
+    image: gvenzl/oracle-free:latest
+    container_name: oracle-db
+    ports:
+      - "127.0.0.1:1521:1521"
+    environment:
+      ORACLE_RANDOM_PASSWORD: true
+      APP_USER: mea_pay
+      APP_USER_PASSWORD: mea_pay
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+      start_interval: 5s
+

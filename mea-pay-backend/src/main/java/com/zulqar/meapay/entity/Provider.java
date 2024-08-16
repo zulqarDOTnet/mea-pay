@@ -36,7 +36,6 @@ public class Provider {
         this.providerImages = providerImages;
     }
 
-
     public Integer getProviderId() {
         return providerId;
     }
