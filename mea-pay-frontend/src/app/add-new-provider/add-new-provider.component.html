@@ -47,17 +47,21 @@
                     <p>
                         <mat-form-field appearance="outline" class="w-100">
                             <mat-label>Provider API Method</mat-label>
-                            <input matInput placeholder="Provider API Method" [(ngModel)]="provider.providerAPIMethod"
-                                name="providerAPIMethod">
+                            <mat-select [(ngModel)]="provider.providerAPIMethod" name="providerAPIMethod">
+                              <mat-option value="GET">GET</mat-option>
+                              <mat-option value="POST">POST</mat-option>
+                            </mat-select>
                         </mat-form-field>
                     </p>
 
                     <p>
                         <mat-form-field appearance="outline" class="w-100">
                             <mat-label>Provider API Format</mat-label>
-                            <input matInput placeholder="Provider API Format" [(ngModel)]="provider.providerAPIFormat"
-                                name="providerAPIFormat">
-                        </mat-form-field>
+                            <mat-select [(ngModel)]="provider.providerAPIFormat" name="providerAPIFormat">
+                              <mat-option value="JSON">JSON</mat-option>
+                              <mat-option value="XML">XML</mat-option>
+                            </mat-select>
+                          </mat-form-field>
                     </p>
 
                     <div align="end">
