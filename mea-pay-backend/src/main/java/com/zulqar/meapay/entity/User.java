@@ -4,6 +4,8 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
+//Oracle, USER is a reserved keyword:
+@Table(name = "APP_USER")
 public class User {
 
     @Id
@@ -11,7 +13,9 @@ public class User {
     private String userFirstName;
     private String userLastName;
     private String userPassword;
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    //@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    // Oracle Database doesn’t support the CascadeType.ALL option for many-to-many relationships.
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "USER_ROLE",
             joinColumns = {
                     @JoinColumn(name = "USER_ID")

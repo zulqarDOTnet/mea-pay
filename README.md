@@ -1,6 +1,9 @@
 # MeaPay, renamed from gecPAY
 
+Migrated from MySQL to Oracle Database
+
 **Backend Versions**<br>
+Oracle: TNSLSNR for Linux: Version 23.0.0.0.0 - for Oracle Cloud and Engineered Systems<br>
 Java: 17.0.12<br>
 Maven: 3.8.7<br>
 Spring Boot: 2.4.5<br>
